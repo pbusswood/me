@@ -1,0 +1,175 @@
+.grid-sizer,
+.insta-photo {
+  width: 33.33%; }
+
+.insta-photo {
+  float: left;
+  height: 0;
+  padding-bottom: 33.33%;
+  background-size: 100%; }
+  .insta-photo.insta-photo--width2 {
+    width: 66.66%; }
+  .insta-photo.insta-photo--height2 {
+    padding-bottom: 66.66%; }
+
+#ip-game-awards {
+  background-image: url("../img/photos/game-awards.jpg"); }
+
+#ip-ubc {
+  background-image: url("../img/photos/ubc.jpg"); }
+
+#ip-snowboard {
+  background-image: url("../img/photos/snowboard.jpg"); }
+
+#ip-cartems {
+  background-image: url("../img/photos/cartems.jpg"); }
+
+#ip-playstation {
+  background-image: url("../img/photos/playstation.jpg"); }
+
+#ip-ldrly {
+  background-image: url("../img/photos/ldrly.jpg"); }
+
+#ip-esg {
+  background-image: url("../img/photos/esg.jpg"); }
+
+#ip-curling {
+  background-image: url("../img/photos/curling.jpg"); }
+
+#ip-star-wars {
+  background-image: url("../img/photos/star-wars.jpg"); }
+
+#ip-poster {
+  background-image: url("../img/photos/poster.jpg"); }
+
+#ip-journal {
+  background-image: url("../img/photos/journal.jpg"); }
+
+#ip-ipad {
+  background-image: url("../img/photos/ipad.jpg"); }
+
+#ip-yea-ldrly {
+  background-image: url("../img/photos/yea-ldrly.jpg"); }
+
+#ip-napa {
+  background-image: url("../img/photos/napa.jpg"); }
+
+#ip-acme {
+  background-image: url("../img/photos/acme.jpg"); }
+
+#ip-vegas {
+  background-image: url("../img/photos/vegas.jpg"); }
+
+#ip-esg,
+#ip-ldrly,
+#ip-poster,
+#ip-journal,
+#ip-ipad,
+#ip-yea-ldrly,
+#ip-vegas,
+#ip-napa,
+#ip-acme {
+  display: none; }
+
+@media screen and (min-width: 600px) {
+  .grid-sizer,
+  .insta-photo {
+    width: 25%; }
+
+  .insta-photo {
+    padding-bottom: 25%; }
+    .insta-photo.insta-photo--width2 {
+      width: 50%; }
+    .insta-photo.insta-photo--height2 {
+      padding-bottom: 50%; }
+
+  #ip-esg,
+  #ip-journal,
+  #ip-ipad {
+    display: block; } }
+@media screen and (min-width: 800px) {
+  .grid-sizer,
+  .insta-photo {
+    width: 20%; }
+
+  .insta-photo {
+    padding-bottom: 20%; }
+    .insta-photo.insta-photo--width2 {
+      width: 40%; }
+    .insta-photo.insta-photo--height2 {
+      padding-bottom: 40%; }
+
+  #ip-vegas,
+  #ip-napa,
+  #ip-acme {
+    display: block; } }
+@media screen and (min-width: 1000px) {
+  .grid-sizer,
+  .insta-photo {
+    width: 16.666%; }
+
+  .insta-photo {
+    padding-bottom: 16.666%; }
+    .insta-photo.insta-photo--width2 {
+      width: 33.333%; }
+    .insta-photo.insta-photo--height2 {
+      padding-bottom: 33.333%; }
+
+  #ip-yea-ldrly,
+  #ip-poster {
+    display: block; }
+
+  #ip-vegas,
+  #ip-acme {
+    display: none; } }
+@media screen and (min-width: 1200px) {
+  .grid-sizer,
+  .insta-photo {
+    width: 14.285%; }
+
+  .insta-photo {
+    padding-bottom: 14.285%; }
+    .insta-photo.insta-photo--width2 {
+      width: 28.571%; }
+    .insta-photo.insta-photo--height2 {
+      padding-bottom: 28.571%; }
+
+  #ip-ldrly {
+    display: block; }
+
+  #ip-vegas,
+  #ip-napa,
+  #ip-acme {
+    display: none; } }
+@media screen and (min-width: 1400px) {
+  .grid-sizer,
+  .insta-photo {
+    width: 12.5%; }
+
+  .insta-photo {
+    padding-bottom: 12.5%; }
+    .insta-photo.insta-photo--width2 {
+      width: 25%; }
+    .insta-photo.insta-photo--height2 {
+      padding-bottom: 25%; }
+
+  #ip-vegas,
+  #ip-napa,
+  #ip-acme {
+    display: block; } }
+@media screen and (min-width: 1600px) {
+  .grid-sizer,
+  .insta-photo {
+    width: 10%; }
+
+  .insta-photo {
+    padding-bottom: 10%; }
+    .insta-photo.insta-photo--width2 {
+      width: 20%; }
+    .insta-photo.insta-photo--height2 {
+      padding-bottom: 20%; }
+
+  #ip-ldrly {
+    display: none; } }
+
+/*# sourceMappingURL=photos.css.map */
