@@ -1,0 +1,39 @@
+{
+  "projects": [{
+    "name": "ChangeHack",
+    "src": "changehack.jpg"
+  }, {
+    "name": "LDRLY",
+    "src": "ldrly.jpg"
+  }, {
+    "name": "Treefort Summit",
+    "src": "treefort.jpg"
+  }, {
+    "name": "East Side Games",
+    "src": "esg.jpg"
+  }, {
+    "name": "Mentor Analytics",
+    "src": "mentor.jpg"
+  }, {
+    "name": "Thousand Network",
+    "src": "thousand-network.jpg"
+  }, {
+    "name": "TEDx",
+    "src": "tedx.jpg"
+  }, {
+    "name": "Vancouver Canucks",
+    "src": "canucks.jpg"
+  }, {
+    "name": "Launch Academy",
+    "src": "launch-academy.jpg"
+  }, {
+    "name": "My Cap Is",
+    "src": "my-cap-is.jpg"
+  }, {
+    "name": "Save Interactive Design",
+    "src": "save-inte.jpg"
+  }, {
+    "name": "Blenz Coffee",
+    "src": "blenz.jpg"
+  }]
+}

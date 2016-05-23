@@ -1,0 +1,16 @@
+<!-- navigation.nunjucks -->
+
+<nav>
+  <div class="container group">
+    <div id="logo">
+      <img src="img/logo.png" alt="Parker Busswood">
+    </div>
+    <ul>
+      <a href="#home"><li class="active">Home</li></a>
+      <a href="#work"><li>Work</li></a>
+      <a href="#about"><li>About</li></a>
+      <li>Blog</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+</nav>

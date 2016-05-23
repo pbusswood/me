@@ -1,0 +1,27 @@
+<!-- index.nunjucks -->
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<!-- Importing Nunjucks Macro -->
+{% import 'macros/navigation.nunjucks' as nav %}
+
+<!-- Creating the navigation with activePage = 'home' -->
+{{nav.active('home')}}
+
+<section id="work">
+  <div class="container">
+    <h1>My Work</h1>
+    <h2>These are a few of my favourite things.</h2>
+    <div class="projects group">
+      <!-- Loops through "projects" array -->
+      {% for project in projects %}
+      <div class="project" id="project-0">
+        <img src="img/projects/{{project.src}}" alt="{{project.name}}">
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% endblock %}
