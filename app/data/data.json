@@ -1,7 +1,8 @@
 {
   "projects": [{
     "name": "ChangeHack",
-    "src": "changehack.jpg"
+    "src": "changehack.jpg",
+    "heading": "Creative solutions to the world's biggest problems"
   }, {
     "name": "LDRLY",
     "src": "ldrly.jpg"
@@ -35,5 +36,45 @@
   }, {
     "name": "Blenz Coffee",
     "src": "blenz.jpg"
+  }],
+
+  "images": [{
+    "name": "game-awards"
+  }, {
+    "name": "ubc"
+  }, {
+    "name": "snowboard"
+  }, {
+    "name": "cartems"
+  }, {
+    "name": "playstation"
+  }, {
+    "name": "ldrly",
+    "width": 2,
+    "height": 2
+  }, {
+    "name": "curling",
+    "height": 2
+  }, {
+    "name": "star-wars",
+    "width": 2
+  }, {
+    "name": "poster",
+    "width": 2,
+    "height": 2
+  }, {
+    "name": "esg"
+  }, {
+    "name": "journal"
+  }, {
+    "name": "ipad"
+  }, {
+    "name": "yea-ldrly"
+  }, {
+    "name": "napa"
+  }, {
+    "name": "acme"
+  }, {
+    "name": "vegas"
   }]
 }

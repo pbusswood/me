@@ -74,6 +74,7 @@ nav {
 
 #work h1, #work h2 {
   margin: 0 1.5em; }
+
 #work .container {
   margin: 0; }
 
@@ -155,15 +156,12 @@ footer {
 @media screen and (min-width: 480px) {
   h1 {
     font-size: 3em; }
-
   h2 {
     font-size: 1.5em; }
-
   p {
     font-size: 1em; }
     p.lead {
       font-size: 1.5em; }
-
   nav {
     background-color: #414141; }
     nav #logo {
@@ -176,12 +174,10 @@ footer {
         display: initial; }
       nav ul li {
         margin-left: 0.2em; }
-
   #hero {
     margin-top: 145px;
     padding-top: 120px;
     padding-bottom: 150px; }
-
   #twitter {
     padding: 35px 0; }
     #twitter img {
@@ -190,7 +186,6 @@ footer {
     #twitter p {
       font-size: 1.125em;
       width: calc(100% - 89px); }
-
   .project {
     width: 50%;
     margin-bottom: -1px;
@@ -203,20 +198,19 @@ footer {
       .project img:hover {
         transform: scale(1.05);
         opacity: 0.93; }
-
   .container {
     margin: 0 1.875em; } }
+
 @media screen and (min-width: 600px) {
   .project {
     width: 50%;
     margin-bottom: -1px; } }
+
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 3.5em; }
-
   h2 {
     font-size: 1.875em; }
-
   nav {
     background-color: #232323;
     padding: 12px 0; }
@@ -235,21 +229,17 @@ footer {
       nav ul li {
         font-size: 1em;
         margin-left: 0; }
-
   .projects {
     margin-bottom: 60px; }
-
   .project {
     width: 33.33%;
     margin-bottom: -1px;
     margin-right: 0; }
-
   #about .about-me {
     column-count: 2;
     column-gap: 40px; }
     #about .about-me p.lead {
       column-span: all; }
-
   #twitter {
     padding: 50px 0; }
     #twitter img {
@@ -258,19 +248,17 @@ footer {
     #twitter p {
       font-size: 1.25em;
       width: calc(100% - 111px); }
-
   .container,
   nav .container,
   #work .container {
     margin: 0 3.25em; }
-
   #hero {
     margin-top: 62px;
     padding-top: 170px; } }
+
 @media screen and (min-width: 1024px) {
   nav ul li {
     margin-left: 0.5em; }
-
   #twitter {
     padding: 60px 0; }
     #twitter img {
@@ -278,22 +266,18 @@ footer {
     #twitter p {
       font-size: 1.5em;
       width: calc(100% - 116px); }
-
   .project {
     width: 33.33%; }
-
   .container,
   nav .container,
   #work .container {
     margin: 0 7em; } }
+
 @media screen and (min-width: 1300px) {
   .project {
     width: 25%;
     margin-right: 0;
     margin-bottom: -1px; }
-
   .container {
     max-width: 1200px;
     margin: 0 auto; } }
-
-/*# sourceMappingURL=main.css.map */

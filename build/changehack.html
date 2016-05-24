@@ -21,7 +21,60 @@
     <![endif]-->
 
     <!-- You write code for this content block in another file -->
-    {% block content %} {% endblock %}
+    
+
+<!-- Importing Nunjucks Macro -->
+
+
+<header>
+  <!-- Creating the navigation with activePage = 'work' -->
+  
+<nav>
+  <div class="container group">
+    <div id="logo">
+      <img src="img/logo.png" alt="Parker Busswood">
+    </div>
+    <ul>
+      <a href="#home"><li class="">Home</li></a>
+      <a href="#work"><li class=" active ">Work</li></a>
+      <a href="#about"><li class="">About</li></a>
+      <li>Blog</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+</nav>
+
+
+  <div id="hero">
+    <div class="container">
+      <h1>ChangeHack</h1>
+      <h2>Creative solutions to the world&#39;s biggest problems.</h2>
+    </div>
+  </div>
+</header>
+
+<!-- twitter.nunjucks -->
+
+<section id="twitter">
+  <div class="container group">
+    <img src="img/twitter.png">
+    <p><strong>@ParkerBusswood:</strong> Love the idea of @startupvisaca. Lower barrier to entry, bring best #tech #startups to #Vancouver, and invest in their success. /cc @bwertz</p>
+  </div>
+</section>
+
+
+<!-- footer.nunjucks -->
+
+<footer class="group">
+  <div class="social-icons">
+    <div class="social-icon facebook"></div>
+    <div class="social-icon twitter"></div>
+    <div class="social-icon linkedin"></div>
+  </div>
+</footer>
+
+
+
 
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

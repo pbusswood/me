@@ -75,101 +75,90 @@
   .grid-sizer,
   .insta-photo {
     width: 25%; }
-
   .insta-photo {
     padding-bottom: 25%; }
     .insta-photo.insta-photo--width2 {
       width: 50%; }
     .insta-photo.insta-photo--height2 {
       padding-bottom: 50%; }
-
   #ip-esg,
   #ip-journal,
   #ip-ipad {
     display: block; } }
+
 @media screen and (min-width: 800px) {
   .grid-sizer,
   .insta-photo {
     width: 20%; }
-
   .insta-photo {
     padding-bottom: 20%; }
     .insta-photo.insta-photo--width2 {
       width: 40%; }
     .insta-photo.insta-photo--height2 {
       padding-bottom: 40%; }
-
   #ip-vegas,
   #ip-napa,
   #ip-acme {
     display: block; } }
+
 @media screen and (min-width: 1000px) {
   .grid-sizer,
   .insta-photo {
     width: 16.666%; }
-
   .insta-photo {
     padding-bottom: 16.666%; }
     .insta-photo.insta-photo--width2 {
       width: 33.333%; }
     .insta-photo.insta-photo--height2 {
       padding-bottom: 33.333%; }
-
   #ip-yea-ldrly,
   #ip-poster {
     display: block; }
-
   #ip-vegas,
   #ip-acme {
     display: none; } }
+
 @media screen and (min-width: 1200px) {
   .grid-sizer,
   .insta-photo {
     width: 14.285%; }
-
   .insta-photo {
     padding-bottom: 14.285%; }
     .insta-photo.insta-photo--width2 {
       width: 28.571%; }
     .insta-photo.insta-photo--height2 {
       padding-bottom: 28.571%; }
-
   #ip-ldrly {
     display: block; }
-
   #ip-vegas,
   #ip-napa,
   #ip-acme {
     display: none; } }
+
 @media screen and (min-width: 1400px) {
   .grid-sizer,
   .insta-photo {
     width: 12.5%; }
-
   .insta-photo {
     padding-bottom: 12.5%; }
     .insta-photo.insta-photo--width2 {
       width: 25%; }
     .insta-photo.insta-photo--height2 {
       padding-bottom: 25%; }
-
   #ip-vegas,
   #ip-napa,
   #ip-acme {
     display: block; } }
+
 @media screen and (min-width: 1600px) {
   .grid-sizer,
   .insta-photo {
     width: 10%; }
-
   .insta-photo {
     padding-bottom: 10%; }
     .insta-photo.insta-photo--width2 {
       width: 20%; }
     .insta-photo.insta-photo--height2 {
       padding-bottom: 20%; }
-
   #ip-ldrly {
     display: none; } }
-
-/*# sourceMappingURL=photos.css.map */
