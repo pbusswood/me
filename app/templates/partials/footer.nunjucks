@@ -1,0 +1,9 @@
+<!-- footer.nunjucks -->
+
+<footer class="group">
+  <div class="social-icons">
+    <div class="social-icon facebook"></div>
+    <div class="social-icon twitter"></div>
+    <div class="social-icon linkedin"></div>
+  </div>
+</footer>

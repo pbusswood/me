@@ -1,0 +1,25 @@
+<!-- project.nunjucks -->=
+{% extends "layout.nunjucks" %}
+
+{% block content %}
+
+<!-- Importing Nunjucks Macro -->
+{% import 'macros/navigation.nunjucks' as nav %}
+
+<header>
+  <!-- Creating the navigation with activePage = 'work' -->
+  {{nav.active('work')}}
+
+  <div id="hero">
+    <div class="container">
+      <h1>{{ name }}</h1>
+      <h2>{{ heading }}.</h2>
+    </div>
+  </div>
+</header>
+
+{% include "partials/twitter.nunjucks" %}
+
+{% include "partials/footer.nunjucks" %}
+
+{% endblock %}
