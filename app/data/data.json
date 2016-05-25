@@ -2,6 +2,7 @@
   "projects": [{
     "name": "ChangeHack",
     "src": "changehack.jpg",
+    "bg-src": "changehack-bg.jpg",
     "heading": "Creative solutions to the world's biggest problems"
   }, {
     "name": "LDRLY",
