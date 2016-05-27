@@ -10,7 +10,7 @@
   <!-- Creating the navigation with activePage = 'home' -->
   {{nav.active('home')}}
 
-  <div id="hero">
+  <div class="hero">
     <div class="container">
       <h1>Hey, I'm Parker.</h1>
       <h2>I create and build fantastic user experiences.</h2>
@@ -25,10 +25,9 @@
     <div class="projects group">
       <!-- Loops through "projects" array -->
       {% for project in projects %}
-      {% set fileName = project.name.replace(r/ +/g, '-').toLowerCase() %}
-      <a href="{{ fileName }}.html">
+      <a href="{{ project.stub }}.html">
         <div class="project" id="project-{{loop.index0}}">
-          <img src="img/projects/{{project.src}}" alt="{{project.name}}">
+          <img src="img/projects/{{project.stub}}/{{ project.stub }}.jpg" alt="{{project.name}}">
         </div>
       </a>
       {% endfor %}

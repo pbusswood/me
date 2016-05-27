@@ -1,0 +1,42 @@
+/* container.scss */
+
+.container {
+  margin: 0 1.5em;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: $breakpoint-mobile) {
+
+  .container {
+    margin: 0 $container-margin-mobile;
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-tablet) {
+
+  .container {
+    margin: 0 $container-margin-tablet;
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+
+  .container {
+    margin: 0 $container-margin-desktop;
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-desktop-lg) {
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+}
+

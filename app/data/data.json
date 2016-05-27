@@ -1,42 +1,43 @@
 {
   "projects": [{
     "name": "ChangeHack",
-    "src": "changehack.jpg",
-    "bg-src": "changehack-bg.jpg",
-    "heading": "Creative solutions to the world's biggest problems"
+    "stub": "changehack",
+    "description": "Creative solutions to the world's biggest problems",
+    "process": "Building a new kind of hackathon",
+    "results": "A dynamic, versatile brand and web strategy"
   }, {
     "name": "LDRLY",
-    "src": "ldrly.jpg"
+    "stub": "ldrly"
   }, {
     "name": "Treefort Summit",
-    "src": "treefort.jpg"
+    "stub": "treefort"
   }, {
     "name": "East Side Games",
-    "src": "esg.jpg"
+    "stub": "esg"
   }, {
     "name": "Mentor Analytics",
-    "src": "mentor.jpg"
+    "stub": "mentor"
   }, {
     "name": "Thousand Network",
-    "src": "thousand-network.jpg"
+    "stub": "thousand-network"
   }, {
     "name": "TEDx",
-    "src": "tedx.jpg"
+    "stub": "tedx"
   }, {
     "name": "Vancouver Canucks",
-    "src": "canucks.jpg"
+    "stub": "canucks"
   }, {
     "name": "Launch Academy",
-    "src": "launch-academy.jpg"
+    "stub": "launch-academy"
   }, {
     "name": "My Cap Is",
-    "src": "my-cap-is.jpg"
+    "stub": "my-cap-is"
   }, {
     "name": "Save Interactive Design",
-    "src": "save-inte.jpg"
+    "stub": "save-inte"
   }, {
     "name": "Blenz Coffee",
-    "src": "blenz.jpg"
+    "stub": "blenz"
   }],
 
   "images": [{

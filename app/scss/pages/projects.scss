@@ -1,0 +1,97 @@
+/* projects.scss */
+
+.project-wrapper {
+  .hero {
+    background-position: center center;
+  }
+
+  .projects {
+    margin-bottom: 0;
+  }
+}
+
+.process-image {
+  margin-bottom: 3em;
+
+  img {
+    width: 100%;
+  }
+}
+
+#results {
+  margin-bottom: 4em;
+}
+
+#more-projects {
+  .projects a:nth-child(4) {
+    display: none;
+  }
+}
+
+
+/* Projects */
+
+#proj-changehack {
+  .hero {
+    background-image: url('../img/projects/changehack/bg.jpg');
+  }
+}
+
+#proj-ldrly {
+  .hero {
+    background-image: url('../img/projects/ldrly/bg.jpg');
+  }
+}
+
+#proj-treefort {
+  .hero {
+    background-image: url('../img/projects/treefort/bg.jpg');
+  }
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: $breakpoint-mobile) {
+
+  #more-projects {
+    .projects a:nth-child(4) {
+      display: block;
+    }
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-tablet) {
+
+  #more-projects {
+    .projects a:nth-child(4) {
+      display: none;
+    }
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+
+  .projects {
+    margin-bottom: 60px;
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-desktop-lg) {
+
+  .process-image {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #more-projects {
+    .projects a:nth-child(4) {
+      display: block;
+    }
+  }
+
+}

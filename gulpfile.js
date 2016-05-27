@@ -11,7 +11,7 @@ var uglify = require('gulp-uglify');
 var maps = require('gulp-sourcemaps');
 var del = require('del');
 
-var projectData = require('./app/data/data.json');
+var jsonData = require('./app/data/data.json');
 
 var paths = {
   sass: 'app/scss/**/*.scss',
@@ -46,16 +46,26 @@ gulp.task('nunjucks', function() {
 });
 
 gulp.task('projects', function() {
-  for (var i = 0; i < projectData.projects.length; i++) {
-    var project = projectData.projects[i],
-        fileName = project.name.replace(/ +/g, '-').toLowerCase();
+  var projects = jsonData.projects;
+
+  for (var i = 0; i < projects.length; i++) {
+    var project = projects[i],
+        prevProject = (i - 1 >= 0) ? i - 1 : projects.length - 1,
+        nextProject = (i + 1 < projects.length) ? i + 1 : 0,
+        data = {
+          "project": project,
+          "currIndex": i,
+          "prevProject": projects[prevProject],
+          "nextProject": projects[nextProject],
+          "projects": projects
+        };
 
     gulp.src('app/pages/project.nunjucks')
         .pipe(nunjucksRender({
-          data: project,
+          data: data,
           path: ['app/templates']
         }))
-        .pipe(rename(fileName + ".html"))
+        .pipe(rename(project.stub + ".html"))
         .pipe(gulp.dest('app'));
   }
 });
@@ -105,7 +115,7 @@ gulp.task('build', ['nunjucks', 'projects', 'sass', 'scripts'], function() {
 
 // Rerun the task when a file changes
 gulp.task('watch', function() {
-  gulp.watch('app/**/*.nunjucks', ['nunjucks']);
+  gulp.watch('app/**/*.nunjucks', ['nunjucks', 'projects']);
   gulp.watch(paths.sass, ['sass']);
   gulp.watch(paths.scripts, ['scripts']);
   // gulp.watch(paths.fonts, ['fonts']);

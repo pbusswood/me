@@ -6,20 +6,84 @@
 <!-- Importing Nunjucks Macro -->
 {% import 'macros/navigation.nunjucks' as nav %}
 
-<header>
-  <!-- Creating the navigation with activePage = 'work' -->
-  {{nav.active('work')}}
+<div class="project-wrapper" id="proj-{{ project.stub }}">
 
-  <div id="hero">
-    <div class="container">
-      <h1>{{ name }}</h1>
-      <h2>{{ heading }}.</h2>
+  <header>
+    <!-- Creating the navigation with activePage = 'work' -->
+    {{nav.active('work')}}
+
+    <div class="hero">
+      <div class="container">
+        <h1>{{ project.name }}</h1>
+        <h2>{{ project.description }}.</h2>
+      </div>
+      <div class="controls">
+        <a href="{{ prevProject.stub }}.html"><div class="control control-left"></div></a>
+        <a href="{{ nextProject.stub }}.html"><div class="control control-right"></div></a>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
-{% include "partials/twitter.nunjucks" %}
+  <section id="process">
+    <div class="container">
+      <h1>The Process</h1>
+      <h2>Building a new kind of hackathon.</h2>
+    </div>
+    <div class="process-image">
+      <img src="img/projects/{{ project.stub }}/process.jpg" alt="{{ project.name }} Process">
+    </div>
+    <div class="container">
+      <p class="lead">
+        In 2015, I founded ChangeHack, a non-profit focused on bringing together a diverse group of people to develop creative solutions to some of the most important problems facing our society.
+      </p>
+      <p>
+        I co-founded LDRLY, a game services startup focused on creating a player intelligence platform that helps game developers improve retention, engagement, and monetization. As Chief Creative Officer, I led design and later operations for the company, managing a team of designers and software engineers and coordinating product strategy. I've also worked at East Side Games leading product and design for their analytics and core tech teams.
+      </p>
+      <p>
+        In the tech community, I have organized TEDx, Startup Weekend and Google Developer Group events. I have also co-founded two non-profit organizations, including ChangeHack, which aims to bring together diverse groups of people to solve important social problems.
+      </p>
+      <p>
+        In my spare time, I run, play soccer, curl, read, play games on my PS4, and spend time with friends. I’m always keeping tabs on tech industry news, listening to gaming podcasts, attending local meetups, and I often travel to tech and game industry conferences.
+      </p>
+    </div>
+  </section>
 
-{% include "partials/footer.nunjucks" %}
+  <section id="results">
+    <div class="container">
+      <h1>The Results</h1>
+      <h2>A dynamic, versatile brand and web strategy.</h2>
+      <p class="lead">
+        Hey, I'm Parker! I'm deeply passionate about startups, entrepreneurship, design, technology, gaming, and creating fantastic user experiences.
+      </p>
+      <p>
+        I co-founded LDRLY, a game services startup focused on creating a player intelligence platform that helps game developers improve retention, engagement, and monetization. As Chief Creative Officer, I led design and later operations for the company, managing a team of designers and software engineers and coordinating product strategy. I've also worked at East Side Games leading product and design for their analytics and core tech teams.
+      </p>
+    </div>
+  </section>
+
+  <section id="more-projects">
+    <div class="container">
+      <h1>More Projects</h1>
+      <h2>Check out what else I've been working on.</h2>
+    </div>
+    <div class="projects group">
+      {% set index = currIndex %}
+      {% for i in range(1, 5) -%}
+        {% set index = ((index + 1) if (index + 1) < projects.length else 0) %}
+        {% set p = projects[index] %}
+        <a href="{{ p.stub }}.html">
+          <div class="project" id="project-{{loop.index0}}">
+            <img src="img/projects/{{p.stub}}/{{ p.stub }}.jpg" alt="{{p.name}}">
+          </div>
+        </a>
+      {%- endfor %}
+    </div>
+  </section>
+
+  {% include "partials/twitter.nunjucks" %}
+
+  {% include "partials/footer.nunjucks" %}
+
+</div>
 
 {% endblock %}

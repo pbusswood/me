@@ -1,0 +1,13 @@
+/* base.scss */
+
+.dark {
+  background: $darker-grey;
+}
+
+.group:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}

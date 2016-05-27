@@ -1,0 +1,43 @@
+/* index.scss */
+
+#work {
+  h1, h2 {
+    margin: 0 1.5em;
+  }
+
+  .container {
+    margin: 0;
+  }
+}
+
+#about {
+  .photos {
+    margin-top: 50px;
+  }
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: $breakpoint-tablet) {
+
+  #about {
+    .about-me {
+      column-count: 2;
+      column-gap: 40px;
+
+      p.lead {
+        column-span: all;
+      }
+    }
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+
+  #work .container {
+    margin: 0 $container-margin-desktop;
+  }
+
+}

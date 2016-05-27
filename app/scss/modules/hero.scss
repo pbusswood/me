@@ -1,0 +1,77 @@
+/* hero.scss */
+
+.hero {
+  margin-top: 145px;
+  padding: 110px 0 140px;
+  position: relative;
+  background: url('../img/hero-bg.jpg') center bottom;
+  background-size: cover;
+
+  .controls {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    display: none;
+
+    .control {
+      width: 54px;
+      height: 54px;
+      position: absolute;
+      background-color: rgba(0,0,0,0.3);
+      background-size: 100%;
+      background-repeat: no-repeat;
+
+      &.control-left {
+        left: 0;
+        background-image: url('../img/arrow-left.png');
+      }
+
+      &.control-right {
+        right: 0;
+        background-image: url('../img/arrow-right.png');
+      }
+    }
+  }
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: $breakpoint-mobile) {
+
+  .hero {
+    margin-top: 145px;
+    padding-top: 120px;
+    padding-bottom: 150px;
+
+    .container {
+      margin: 0 4.5em;
+    }
+
+    .controls {
+      display: block;
+    }
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-tablet) {
+
+  .hero {
+    margin-top: 62px;
+    padding-top: 170px;
+
+    .container {
+      margin: 0 6em;
+    }
+
+    .controls {
+      .control {
+        width: 72px;
+        height: 72px;
+      }
+    }
+  }
+
+}
+

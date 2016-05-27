@@ -1,13 +1,15 @@
 {% macro active(activePage='home') %}
 <nav>
   <div class="container group">
-    <div id="logo">
-      <img src="img/logo.png" alt="Parker Busswood">
-    </div>
+    <a href="index.html">
+      <div id="logo">
+        <img src="img/logo.png" alt="Parker Busswood">
+      </div>
+    </a>
     <ul>
-      <a href="#home"><li class="{%if activePage == 'home' %} active {% endif %}">Home</li></a>
-      <a href="#work"><li class="{%if activePage == 'work' %} active {% endif %}">Work</li></a>
-      <a href="#about"><li class="{%if activePage == 'about' %} active {% endif %}">About</li></a>
+      <a href="index.html"><li class="{%if activePage == 'home' %} active {% endif %}">Home</li></a>
+      <a href="index.html#work"><li class="{%if activePage == 'work' %} active {% endif %}">Work</li></a>
+      <a href="index.html#about"><li class="{%if activePage == 'about' %} active {% endif %}">About</li></a>
       <li>Blog</li>
       <li>Contact</li>
     </ul>
