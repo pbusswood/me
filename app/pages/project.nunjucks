@@ -18,8 +18,18 @@
           <img src="img/projects/{{ project.stub }}/logo.png" alt="{{ project.name }} Logo">
         </div>
         <div class="controls">
-          <a href="{{ prevProject.stub }}.html"><div class="control control-left"></div></a>
-          <a href="{{ nextProject.stub }}.html"><div class="control control-right"></div></a>
+          <a href="{{ prevProject.stub }}.html">
+            <div class="control control-left"></div>
+            <div class="ctrl-preview preview-left">
+              <img src="img/projects/{{ prevProject.stub }}/{{ prevProject.stub }}.jpg" alt="{{ prevProject.name }}">
+            </div>
+          </a>
+          <a href="{{ nextProject.stub }}.html">
+            <div class="control control-right"></div>
+            <div class="ctrl-preview preview-right">
+              <img src="img/projects/{{ nextProject.stub }}/{{ nextProject.stub }}.jpg" alt="{{ nextProject.name }}">
+            </div>
+          </a>
         </div>
       </div>
     </div>

@@ -23,9 +23,14 @@
       width: 54px;
       height: 54px;
       position: absolute;
-      background-color: rgba(0,0,0,0.3);
+      background-color: rgba(0,0,0,.3);
       background-size: 100%;
       background-repeat: no-repeat;
+      transition: .2s;
+
+      &:hover {
+        background-color: rgba(0,0,0,.8);
+      }
 
       &.control-left {
         left: 0;
@@ -35,6 +40,39 @@
       &.control-right {
         right: 0;
         background-image: url('../img/arrow-right.png');
+      }
+    }
+
+    .ctrl-preview {
+      height: 54px;
+      position: absolute;
+      transition: width .4s;
+      transition-delay: .2s;
+      width: 0;
+      overflow: hidden;
+
+      &.active {
+        width: 81px;
+      }
+
+      img {
+        height: 100%;
+      }
+
+      &.preview-left {
+        left: 54px;
+
+        img {
+          float: right;
+        }
+      }
+
+      &.preview-right {
+        right: 54px;
+
+        img {
+          float: left;
+        }
       }
     }
   }
@@ -68,6 +106,22 @@
       .control {
         width: 72px;
         height: 72px;
+      }
+
+      .ctrl-preview {
+        height: 72px;
+
+        &.active {
+          width: 109px;
+        }
+
+        &.preview-left {
+          left: 72px;
+        }
+
+        &.preview-right {
+          right: 72px;
+        }
       }
     }
   }

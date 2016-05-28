@@ -21,3 +21,9 @@ $('.photos').isotope({
     columnWidth: '.grid-sizer'
   }
 });
+
+$('.control').hover(function() {
+  $(this).next().addClass('active');
+}, function() {
+  $(this).next().removeClass('active');
+});
