@@ -8,6 +8,10 @@ nav {
   z-index: 1000;
   transition: background-color .4s;
 
+  &.scroll {
+    background-color: rgba(0,0,0,.6);
+  }
+
   .container {
     margin: 0;
   }
