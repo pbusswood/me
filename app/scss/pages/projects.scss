@@ -3,10 +3,20 @@
 .project-wrapper {
   .hero {
     background-position: center center;
+    padding: 140px 0 100px;
   }
 
   .projects {
     margin-bottom: 0;
+  }
+}
+
+.project-logo {
+  width: 70%;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
   }
 }
 
@@ -49,10 +59,68 @@
   }
 }
 
+#proj-esg {
+  .hero {
+    background-image: url('../img/projects/esg/bg.jpg');
+  }
+}
+
+#proj-mentor {
+  .hero {
+    background-image: url('../img/projects/mentor/bg.jpg');
+  }
+}
+
+#proj-thousand-network {
+  .hero {
+    background-image: url('../img/projects/thousand-network/bg.jpg');
+  }
+}
+
+#proj-tedx {
+  .hero {
+    background-image: url('../img/projects/tedx/bg.jpg');
+  }
+}
+
+#proj-canucks {
+  .hero {
+    background-image: url('../img/projects/canucks/bg.jpg');
+  }
+}
+
+#proj-launch-academy {
+  .hero {
+    background-image: url('../img/projects/launch-academy/bg.jpg');
+  }
+}
+
+#proj-my-cap-is {
+  .hero {
+    background-image: url('../img/projects/my-cap-is/bg.jpg');
+  }
+}
+
+#proj-save-inte {
+  .hero {
+    background-image: url('../img/projects/save-inte/bg.jpg');
+  }
+}
+
+#proj-blenz {
+  .hero {
+    background-image: url('../img/projects/blenz/bg.jpg');
+  }
+}
+
 
 /* Media Queries */
 
 @media screen and (min-width: $breakpoint-mobile) {
+
+  .project-logo {
+    width: 60%;
+  }
 
   #more-projects {
     .projects a:nth-child(4) {
@@ -64,6 +132,17 @@
 
 @media screen and (min-width: $breakpoint-tablet) {
 
+  .project-wrapper {
+    .hero {
+      background-position: center center;
+      padding-top: 160px;
+    }
+  }
+
+  .project-logo {
+    width: 50%;
+  }
+
   #more-projects {
     .projects a:nth-child(4) {
       display: none;
@@ -74,6 +153,10 @@
 
 @media screen and (min-width: $breakpoint-desktop) {
 
+  .project-logo {
+    width: 40%;
+  }
+
   .projects {
     margin-bottom: 60px;
   }
@@ -81,6 +164,10 @@
 }
 
 @media screen and (min-width: $breakpoint-desktop-lg) {
+
+  .project-logo {
+    max-width: 500px;
+  }
 
   .process-image {
     max-width: 1200px;

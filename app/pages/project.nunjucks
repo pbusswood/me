@@ -14,12 +14,13 @@
 
     <div class="hero">
       <div class="container">
-        <h1>{{ project.name }}</h1>
-        <h2>{{ project.description }}.</h2>
-      </div>
-      <div class="controls">
-        <a href="{{ prevProject.stub }}.html"><div class="control control-left"></div></a>
-        <a href="{{ nextProject.stub }}.html"><div class="control control-right"></div></a>
+        <div class="project-logo">
+          <img src="img/projects/{{ project.stub }}/logo.png" alt="{{ project.name }} Logo">
+        </div>
+        <div class="controls">
+          <a href="{{ prevProject.stub }}.html"><div class="control control-left"></div></a>
+          <a href="{{ nextProject.stub }}.html"><div class="control control-right"></div></a>
+        </div>
       </div>
     </div>
   </header>

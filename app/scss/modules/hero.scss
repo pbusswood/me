@@ -1,15 +1,21 @@
 /* hero.scss */
 
 .hero {
-  margin-top: 145px;
+  margin-top: 102px;
   padding: 110px 0 140px;
   position: relative;
-  background: url('../img/hero-bg.jpg') center bottom;
+  background: #414141 url('../img/hero-bg.jpg') center bottom;
   background-size: cover;
+
+  .container {
+    position: relative;
+    margin: 0;
+    max-width: none;
+  }
 
   .controls {
     position: absolute;
-    top: 45%;
+    top: calc(50% - 27px);
     width: 100%;
     display: none;
 
@@ -40,13 +46,8 @@
 @media screen and (min-width: $breakpoint-mobile) {
 
   .hero {
-    margin-top: 145px;
     padding-top: 120px;
     padding-bottom: 150px;
-
-    .container {
-      margin: 0 4.5em;
-    }
 
     .controls {
       display: block;
@@ -58,14 +59,12 @@
 @media screen and (min-width: $breakpoint-tablet) {
 
   .hero {
-    margin-top: 62px;
-    padding-top: 170px;
-
-    .container {
-      margin: 0 6em;
-    }
+    margin-top: 0;
+    padding-top: 230px;
 
     .controls {
+      top: calc(50% - 36px);
+
       .control {
         width: 72px;
         height: 72px;
@@ -74,4 +73,3 @@
   }
 
 }
-
