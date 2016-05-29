@@ -2,14 +2,13 @@
 
 .hero {
   margin-top: 102px;
-  padding: 110px 0 140px;
+  padding: 150px 0 140px;
   position: relative;
   background: #414141 url('../img/hero-bg.jpg') center bottom;
   background-size: cover;
 
   .container {
     position: relative;
-    margin: 0;
     max-width: none;
   }
 
@@ -84,7 +83,6 @@
 @media screen and (min-width: $breakpoint-mobile) {
 
   .hero {
-    padding-top: 120px;
     padding-bottom: 150px;
 
     .controls {
