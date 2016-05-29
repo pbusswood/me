@@ -4,40 +4,52 @@
     "stub": "changehack",
     "description": "Creative solutions to the world's biggest problems",
     "process": "Building a new kind of hackathon",
-    "results": "A dynamic, versatile brand and web strategy"
+    "results": "A dynamic, versatile brand and web strategy",
+    "categories": ["design", "ux", "code", "branding"]
   }, {
     "name": "LDRLY",
-    "stub": "ldrly"
+    "stub": "ldrly",
+    "categories": ["design", "ux", "code", "product", "branding"]
   }, {
     "name": "Treefort Summit",
-    "stub": "treefort"
+    "stub": "treefort",
+    "categories": ["branding"]
   }, {
     "name": "East Side Games",
-    "stub": "esg"
+    "stub": "esg",
+    "categories": ["design", "ux", "code", "product", "branding"]
   }, {
     "name": "Mentor Analytics",
-    "stub": "mentor"
+    "stub": "mentor",
+    "categories": ["design", "ux", "code", "product", "branding"]
   }, {
     "name": "Thousand Network",
-    "stub": "thousand-network"
+    "stub": "thousand-network",
+    "categories": []
   }, {
     "name": "TEDx",
-    "stub": "tedx"
+    "stub": "tedx",
+    "categories": ["design", "ux", "code"]
   }, {
     "name": "Vancouver Canucks",
-    "stub": "canucks"
+    "stub": "canucks",
+    "categories": ["ux"]
   }, {
     "name": "Launch Academy",
-    "stub": "launch-academy"
+    "stub": "launch-academy",
+    "categories": ["design", "branding"]
   }, {
     "name": "My Cap Is",
-    "stub": "my-cap-is"
+    "stub": "my-cap-is",
+    "categories": ["design", "product", "branding"]
   }, {
     "name": "Save Interactive Design",
-    "stub": "save-inte"
+    "stub": "save-inte",
+    "categories": ["design", "product", "branding"]
   }, {
     "name": "Blenz Coffee",
-    "stub": "blenz"
+    "stub": "blenz",
+    "categories": ["design", "ux", "code"]
   }],
 
   "images": [{

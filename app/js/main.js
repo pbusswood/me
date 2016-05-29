@@ -1,3 +1,5 @@
+/* Change nav on scroll */
+
 checkScroll();
 
 $(window).scroll(function() {
@@ -12,6 +14,9 @@ function checkScroll() {
   }
 }
 
+
+/* Isotope */
+
 $('.photos').isotope({
   itemSelector: '.insta-photo',
   layoutMode: 'masonry',
@@ -21,6 +26,22 @@ $('.photos').isotope({
     columnWidth: '.grid-sizer'
   }
 });
+
+var $projects = $('#work .projects').isotope({
+  itemSelector: '.project'
+});
+
+// filter items on button click
+$('.project-categories').on('click', 'li', function() {
+  $(this).siblings().removeClass('active');
+  $(this).addClass('active');
+
+  var filterValue = $(this).attr('data-filter');
+  $projects.isotope({ filter: filterValue });
+});
+
+
+/* Hero controls */
 
 $('.control').hover(function() {
   $(this).next().addClass('active');

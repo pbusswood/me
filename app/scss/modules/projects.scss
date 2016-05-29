@@ -10,6 +10,53 @@
   }
 }
 
+.project-filter {
+  margin: 0 1.5em 1.5em;
+
+  span {
+    display: none;
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 2px 0;
+
+    &:before {
+      content: 'View:';
+    }
+  }
+
+  .project-categories {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    li {
+      display: inline;
+      text-transform: uppercase;
+      color: $grey;
+      margin-left: 0.8em;
+      line-height: 1.75;
+      padding: 2px 0;
+      cursor: pointer;
+      letter-spacing: 0.03em;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+
+      &:hover {
+        color: $dark-grey;
+      }
+
+      &.active {
+        color: $darker-grey;
+        border-bottom: solid 2px $darker-grey;
+      }
+    }
+  }
+}
+
 
 /* Media Queries */
 
@@ -33,12 +80,36 @@
     }
   }
 
+  .project-filter {
+    margin-left: $container-margin-mobile;
+    margin-right: $container-margin-mobile;
+
+    .project-categories li {
+      line-height: 1.4;
+    }
+  }
+
 }
 
 @media screen and (min-width: $breakpoint-mobile-lg) {
 
   .project {
     width: 50%;
+  }
+
+  .project-filter {
+    span {
+      display: inline;
+    }
+
+    .project-categories {
+      float: right;
+
+      li {
+        float: left;
+        display: block;
+      }
+    }
   }
 
 }
@@ -50,6 +121,32 @@
     margin-right: 0;
   }
 
+  .project-filter {
+    margin-left: $container-margin-tablet;
+    margin-right: $container-margin-tablet;
+
+    .project-categories li {
+      margin-left: 1.5em;
+    }
+  }
+
+  .project-filter span:before {
+    content: 'Filter Projects:';
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-desktop) {
+
+  .project-filter {
+    margin-left: 0;
+    margin-right: 0;
+
+    .project-categories li {
+      margin-left: 1.75em;
+    }
+  }
+
 }
 
 @media screen and (min-width: $breakpoint-desktop-lg) {
@@ -57,6 +154,12 @@
   .project {
     width: 25%;
     margin-right: 0;
+  }
+
+  .project-filter {
+    .project-categories li {
+      margin-left: 2em;
+    }
   }
 
 }

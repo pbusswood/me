@@ -10,20 +10,20 @@ h1, h2 {
   margin: 0;
 
   .hero & {
-    color: #fff;
+    color: $white;
     text-shadow: rgba(0,0,0,.3) 1px 1px 4px;
     padding: 0.15em 0;
   }
 }
 
 h1 {
-  color: #232323;
+  color: $darker-grey;
   font-size: 2.25em;
   padding: 1em 0 0;
 }
 
 h2 {
-  color: #919191;
+  color: $grey;
   font-size: 1.125em;
   line-height: 1.5;
   padding: 0.3em 0 1.5em;

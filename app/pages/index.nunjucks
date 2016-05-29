@@ -22,11 +22,22 @@
   <div class="container">
     <h1>My Work</h1>
     <h2>These are a few of my favourite things.</h2>
+    <div class="project-filter group">
+      <span></span>
+      <ul class="project-categories">
+        <li data-filter="*" class="active">All</li>
+        <li data-filter=".cat-design" >Design</li>
+        <li data-filter=".cat-ux">UX</li>
+        <li data-filter=".cat-code">Code</li>
+        <li data-filter=".cat-product">Product</li>
+        <li data-filter=".cat-branding">Branding</li>
+      </ul>
+    </div>
     <div class="projects group">
       <!-- Loops through "projects" array -->
       {% for project in projects %}
       <a href="{{ project.stub }}.html">
-        <div class="project" id="project-{{loop.index0}}">
+        <div class="project{% for category in project.categories %} cat-{{category}}{% endfor %}" id="project-{{loop.index0}}">
           <img src="img/projects/{{project.stub}}/{{ project.stub }}.jpg" alt="{{project.name}}">
         </div>
       </a>
