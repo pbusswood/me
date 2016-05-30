@@ -31,6 +31,12 @@ var $projects = $('#work .projects').isotope({
   itemSelector: '.project'
 });
 
+// layout Isotope after each image loads
+$projects.imagesLoaded({ background: true }).progress( function() {
+  $projects.isotope('layout');
+  console.log('layout');
+});
+
 // filter items on button click
 $('.project-categories').on('click', 'li', function() {
   $(this).siblings().removeClass('active');

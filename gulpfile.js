@@ -84,6 +84,7 @@ gulp.task('concatScripts', function() {
   return gulp.src([
     'app/js/vendor/modernizr-2.8.3.min.js',
     'app/js/vendor/isotope.pkgd.min.js',
+    'app/js/vendor/imagesloaded.pkgd.min.js',
     'app/js/plugins.js',
     'app/js/main.js'
   ])
