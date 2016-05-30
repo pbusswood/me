@@ -48,3 +48,15 @@ $('.control').hover(function() {
 }, function() {
   $(this).next().removeClass('active');
 });
+
+
+/* Arrow key navigation for projects */
+
+$("body").on('keydown', function(e) {
+  if (e.which == 37) { // left key
+    window.location.href = $('.control-left').parent().attr('href');
+  }
+  else if (e.which == 39) { // right key
+    window.location.href = $('.control-right').parent().attr('href');
+  }
+});

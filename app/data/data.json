@@ -5,51 +5,122 @@
     "description": "Creative solutions to the world's biggest problems",
     "process": "Building a new kind of hackathon",
     "results": "A dynamic, versatile brand and web strategy",
-    "categories": ["design", "ux", "code", "branding"]
+    "categories": ["design", "ux", "code", "branding"],
+    "text": [
+      "In 2015, I founded ChangeHack, a non-profit focused on bringing together a diverse group of people to develop creative solutions to some of the most important issues facing our society.",
+      "ChangeHack was created in response to a number of issues I've noticed with hackathons and other similar events, including a lack of diversity, both in terms of background and skillset, and a high percentage of high-potential projects that die on the vine in the weeks following the events. By taking some of the best of brightest people from a variety of industries, and putting them in a room together, we're able to collaborate on creative solutions that make the most of the diverse set of interests and skills we bring to the table.",
+      "As part of this project, I developed the ChangeHack brand, building a clean logo that can be easily adapted to a variety of use cases, as well as supporting imagery that conveys the various causes that our network is passionate about. I also designed and built the ChangeHack site, which implements a mobile-first responsive design to provide a great experience across all screen sizes and devices."
+    ],
+    "images": ["website.jpg"]
   }, {
     "name": "LDRLY",
     "stub": "ldrly",
-    "categories": ["design", "ux", "code", "product", "branding"]
+    "description": "A world-class player intelligence platform",
+    "categories": ["design", "ux", "code", "product", "branding"],
+    "text": [
+      "In 2013, I co-founded LDRLY, a player intelligence platform that provides social and mobile game developers with tools to better retain, engage, and monetize their users.",
+      "I championed LDRLY from the prototype stage while I worked at East Side Games into a full-fledged startup, leading design and user experience across all products as Chief Creative Officer. I built a multi-disciplinary team covering software engineering, web development, and UI/UX design, and managed priorities and deliverables in collaboration with our CEO and CTO.",
+      "Our design team launched and refined our various products from concept to production, developing wireframes, mockups, rapid prototypes, and front-end code. We also facilitated user testing sessions to learn what our users were looking for, and combined this with a data-driven approach to design as we iterated on key features.",
+      "Over the course of my two years with the company, we designed and built user-facing engagement products for both social (Facebook) games and mobile (iOS and Android) games. We also created a developer site to allow game developers to easily get started, read documentation for each platform, and manage their integrations. Our product took in tens of millions of data points from hundreds of thousands of users every day, and processed that data to create dynamic, real-time player engagement features."
+    ]
   }, {
     "name": "Treefort Summit",
     "stub": "treefort",
-    "categories": ["branding"]
+    "description": "Bringing together amazing young thought leaders",
+    "categories": ["branding"],
+    "text": [
+      "In March 2015, some of Vancouver's best and brightest change makers and thought leaders came together for a weekend of adventures, learning, and fascinating conversations.",
+      "As part of the launch of the Vancouver hub of Thousand Network, a global community of young people making a huge impact in the world, we organized the Treefort Summit. Our goal was to bring together some of the most incredible people in the city, in hopes of developing lasting relationships and helping accelerate their impact from local to global. Over the course of a weekend, we participated in workshops on topics ranging from DJ-ing to storytelling, and introduced a whole new group of amazing people to Thousand Network.",
+      "We wanted the event to stand out and have a strong brand that we could utilize for future events. Thousand Network was built by a community who largely came from another network called Sandbox, so the name Treefort was chosen for our event because \"little kids play in the sandbox, while the big kids play in the treefort.\" For us, the name symbolized a new step in our journey as a community, as we worked to build a global family that was even better than the one that came before.",
+      "After several iterations, I finalized the logo for Treefort Summit, which is inspired by the mountains of Vancouver and Whistler, and incorporates the letters 'T' and 'F' in 'Treefort'. Our event was held in a cabin in Whistler, so it was important to me to incorporate imagery of nature and mountains in the branding."
+    ]
   }, {
     "name": "East Side Games",
     "stub": "esg",
-    "categories": ["design", "ux", "code", "product", "branding"]
+    "description": "Fiercely independent social and mobile game development",
+    "categories": ["design", "ux", "code", "product", "branding"],
+    "text": [
+      "At East Side Games, I led product design on the company's Analytics and Core Tech teams, working with a multi-disciplinary team to deliver powerful internal tools for analytics, email campaign management, and customer service.",
+      "My main focus was on Mentor, our internal analytics platform, which was developed in order to satisfy the company's need for deep data analysis and real-time reporting. Later, I designed and built the front-end for Mastr Blastr, an email campaign management platform that integrated with user data from our games and allowed game teams to build custom campaigns based on player metrics. Following that, I once again tackled user experience design and front-end development for Aprl, an internal customer service tool that significantly improved the experience of supporting our players with issues they experienced in our games, giving our CS team the ability to easily manage and modify player data and interact with our customers.",
+      "I also enjoyed having the opportunity to lead web development for the East Side Games rebranding, working with veteran designer Nicholas Tay to implement a new brand strategy and website for the company. I re-worked our WordPress back-end to add new features, and implemented a responsive web design that created a significantly better experience for our visitors on mobile and tablet devices, where many of our games live."
+    ]
   }, {
     "name": "Mentor Analytics",
     "stub": "mentor",
-    "categories": ["design", "ux", "code", "product", "branding"]
+    "description": "Powerful, real-time game analytics platform",
+    "categories": ["design", "ux", "code", "product", "branding"],
+    "text": [
+      "As a member of the Analytics and Core Tech teams at East Side Games, I led product design for Mentor, a powerful, responsive internal analytics platform that was crucial to the work of producers, game designers, and executives at the company.",
+      "Mentor was developed in response to a growing number of one-size-fits-all business intelligence platforms in the market, none of which seemed to meet the ever-changing needs of the East Side Games team. I worked in collaboration with back-end software engineers and business analysts, as well as key stakeholders, to gather feedback and make necessary improvements to the product, crafting a new user interface and implementing dynamic charts that allowed users to interact with the data. I began with a content audit that spanned over 100 pages in the site, and re-architected the site to bring it down to 35 pages that were far more useful and readable.",
+      "After a lengthy user experience design process involving site maps, wireframes, and graphic mockups, I developed the front-end using a responsive design that created a great experience at any screen size, which allowed ESG team members to keep up to speed on the go. Over the course of my time at East Side Games, we made countless iterations on the product, adding new features and metrics and completing another full UI redesign. We drove a 300% increase in internal engagement with our analytics tool, taking it from being a tool used by a handful of employees to being a daily destination for most of the ESG team."
+    ]
   }, {
     "name": "Thousand Network",
     "stub": "thousand-network",
+    "description": "A global community of incredible change makers",
     "categories": []
   }, {
-    "name": "TEDx",
+    "name": "TEDxGastownWomen",
     "stub": "tedx",
-    "categories": ["design", "ux", "code"]
+    "description": "Digital strategy for Vancouver's first TEDxWomen event",
+    "categories": ["design", "ux", "code"],
+    "text": [
+      "At the Treefort Summit organized by the Vancouver hub of Thousand Network, I met Brittany Whitmore, who was starting a journey to bring the first TEDxWomen event to Vancouver.",
+      "I had worked on the organizing committee of TEDxCapU, Capilano University's first TEDx event, and was excited by Brittany's passion for creating an event to celebrate the power of women and girls to be creators and change-makers. I joined the TEDxGastownWomen organizing team as their Digital and Web Coordinator, putting together a clean, responsive web design and implementing it in an easy-to-use content management system using Squarespace. I worked with the social media and content strategy teams to push content to the site, and developed a blog that featured regular updates about the event and our speakers.",
+      "The TEDxGastownWomen event was a huge success, selling out in minutes and leading to a waitlist of hundreds of people excited for an opportunity to get tickets. Our speakers were top-tier, getting rave reviews and sparking interest in another event. TEDxGastownWomen is returning for a second event in October 2016, bigger and better in a significantly larger venue that will hopefully be able to accommodate the huge demand for tickets!"
+    ]
   }, {
     "name": "Vancouver Canucks",
     "stub": "canucks",
-    "categories": ["ux"]
+    "description": "UX review for one of Canada's top sports teams",
+    "categories": ["ux"],
+    "text": [
+      "As part of my Information Architecture and Usability Testing courses at Capilano University, I performed a full UX review of part of the Vancouver Canucks site.",
+      "I worked in collaboration with a team of classmates to complete a content audit, then designed, monitored, and reported on a series of usability testing sessions in order to gather valuable feedback on the site. We used this data to develop site maps and wireframes outlining recommended UX improvements to the Fan Zone and Kids Zone sections of the Canucks site.",
+      "The insights and recommendations that resulted were delivered to the Canucks, who passed along many of my team's suggested improvements to the NHL."
+    ]
   }, {
     "name": "Launch Academy",
     "stub": "launch-academy",
-    "categories": ["design", "branding"]
+    "description": "Building a brand for a competition for student entrepreneurs",
+    "categories": ["design", "branding"],
+    "text": [
+      "In 2013, I collaborated with the team at Launch Academy to brand their latest project, the Student Startup Challenge, which aimed to support young student entrepreneurs with cash, free office space, and mentorship.",
+      "The team was looking for a bold, eye-catching logo that would stand out, and accompanying brand collateral that could be used for their website, social media profiles, and contest pages. The hashtag #SSC2013 became central to the contest, so I decided to use a stylized version of it as our logo. Our poster and website were shared with students at schools all across the Lower Mainland, and we drove dozens of entrepreneurs to submit applications for the competition.",
+      "I worked with the Launch Academy team to build the contest with our friends at Strutta, which allowed applicants to submit short videos pitching their entrepreneurial endeavours, and served as the place for others to vote on their favourite projects. The teams that received the most votes advanced to the next stage of the competition, where our panel of world-class judges narrowed the pack down to the top 5 teams. The winners were given 3 months of office space at Launch Academy to spend the summer working on their projects, as well as cash prizes and mentorship from the Launch Academy community."
+    ]
   }, {
     "name": "My Cap Is",
     "stub": "my-cap-is",
-    "categories": ["design", "product", "branding"]
+    "description": "Amplifying the voice of a university community",
+    "categories": ["design", "product", "branding"],
+    "text": [
+      "In 2013, Capilano University proposed a round of budget cuts that threatened to suspend several beloved programs, devastating arts and university transfer education options at the university.",
+      "I graduated from the Interactive Design program in 2012, after a world-class two-year education that taught me a wide range of skills that prepared me for a career in tech. Within 15 months of graduation, I was co-founding LDRLY, a game services startup based out of the East Side Games office, and my education played a huge part in helping me get there.",
+      "After we launched our Save Interactive Design campaign, we had a ton of interest from Capilano faculty in helping them develop a sister campaign to promote the unique programs that set the university apart and share stories from alumni and community members about their experiences at the university. I worked with the Save INTE team to develop a new brand called 'My Cap Is', and created a campaign which gave students, teachers, staff, alumni, and community members an opportunity to share their experiences and show why the programs that were on the chopping block were so valuable to the community.",
+      "Over the course of the project, I volunteered my time to lead a team of students and alumni to develop the My Cap Is campaign. We crafted brand guidelines and a style guide for the campaign, which laid the groundwork for the design of our web presence and social media strategy. We built an extensive network of people in the university community to get messages of support, photos, videos, and testimonials to share through our website and social media channels. Although the university did decide to proceed with its budget cuts, I am incredibly proud of the work our team achieved."
+    ]
   }, {
     "name": "Save Interactive Design",
     "stub": "save-inte",
-    "categories": ["design", "product", "branding"]
+    "description": "Leading a campaign to save a beloved university program",
+    "categories": ["design", "product", "branding"],
+    "text": [
+      "In 2013, a team of students, teachers, alumni, employers, and community members came together to fight Capilano University's proposed budget cuts, which included suspending the well-respected Interactive Design program.",
+      "I graduated from the Interactive Design program in 2012, after two years of learning skills as varied as information architecture, user experience design, visual design, front-end web development, usability testing, database design and development, communications, marketing, and project management. Our program had a 90+% job placement rate, with almost all of our grads going on to successful, well-paying careers in tech and design.",
+      "When I learned of the university's plan to cut the Interactive Design program, along with many others, I immediately resolved to fight back against the proposed cuts. Here's what I said about the program at the time: \"The tech industry in Vancouver is booming, and no program in the province is more tightly connected to industry and responsive to their ever-changing needs. I envision our program playing a central role in the university, helping other programs execute on their game-changing creative and digital ideas. Programs like Interactive Design are what set Capilano University apart, and I urge the Board of Governors to save this program and allow us to continue putting out the top UX/design/development talent in Vancouver's tech and creative industry.\"",
+      "Over the course of a few months, I volunteered many evenings and weekends to lead a team of students and alumni to develop a campaign to save the Interactive Design program. Together, we developed brand guidelines and a style guide for our campaign, which informed the design of our web presence and social media strategy. We had messages of support coming in from hundreds of concerned alumni, employers, and community members who understood the value of the program and its ability to put out top-tier designers and developers. In fact, our campaign quickly attracted the attention of Capilano University faculty, who we worked with to develop the My Cap Is campaign. Although we were ultimately unsuccessful in getting the university to reverse its decision, I am immensely proud of the work we were able to achieve."
+    ]
   }, {
     "name": "Blenz Coffee",
     "stub": "blenz",
-    "categories": ["design", "ux", "code"]
+    "description": "A new web presence for one of Canada's largest coffee companies",
+    "categories": ["design", "ux", "code"],
+    "text": [
+      "In 2012, I had the pleasure of designing and developing the new corporate site for Blenz Coffee, one of Canada's largest coffee companies.",
+      "Together with a classmate, I pitched for and secured a contract to redesign and develop a new website for Blenz, who had an outdated web presence that didn't reflect their new branding and provided a poor experience for users on mobile devices. This project was the perfect opportunity to put into practice our skills in information architecture, user experience design, user interface design, responsive web development, and usability testing.",
+      "We designed and developed the site to utilize a responsive design, which allows the layout to adapt to provide a fantastic experience on any device. We used WordPress to provide an easy-to-use content management system that allowed the Blenz team to quickly add new promotions, blog posts, store locations, and food and drink options to the site. Integrated training materials and simplified management tools in the WordPress back-end also ensured that the site would be easy for Blenz employees to maintain. We also facilitated user tests with members of the Blenz team to make sure the changes we were making to the layout and design made sense and helped improve their ability to navigate the site and find key information."
+    ]
   }],
 
   "images": [{

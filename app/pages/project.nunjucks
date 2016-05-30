@@ -37,29 +37,34 @@
 
   <section id="process">
     <div class="container">
-      <h1>The Process</h1>
-      <h2>Building a new kind of hackathon.</h2>
+      <h1>{{ project.name }}</h1>
+      <h2>{{ project.description }}.</h2>
     </div>
     <div class="process-image">
       <img src="img/projects/{{ project.stub }}/process.jpg" alt="{{ project.name }} Process">
     </div>
     <div class="container">
-      <p class="lead">
-        In 2015, I founded ChangeHack, a non-profit focused on bringing together a diverse group of people to develop creative solutions to some of the most important problems facing our society.
-      </p>
-      <p>
-        I co-founded LDRLY, a game services startup focused on creating a player intelligence platform that helps game developers improve retention, engagement, and monetization. As Chief Creative Officer, I led design and later operations for the company, managing a team of designers and software engineers and coordinating product strategy. I've also worked at East Side Games leading product and design for their analytics and core tech teams.
-      </p>
-      <p>
-        In the tech community, I have organized TEDx, Startup Weekend and Google Developer Group events. I have also co-founded two non-profit organizations, including ChangeHack, which aims to bring together diverse groups of people to solve important social problems.
-      </p>
-      <p>
-        In my spare time, I run, play soccer, curl, read, play games on my PS4, and spend time with friends. I’m always keeping tabs on tech industry news, listening to gaming podcasts, attending local meetups, and I often travel to tech and game industry conferences.
-      </p>
+      {% for paragraph in project.text %}
+      <p{% if loop.index0 == 0 %} class="lead"{% endif %}>{{paragraph}}</p>
+      {% endfor %}
     </div>
   </section>
 
+  {% if project.images and project.images.length > 0 %}
   <section id="results">
+    <div class="dark">
+      <div class="container">
+        <h1>The Results</h1>
+        <h2>Take a look at the final product.</h2>
+        {% for image in project.images %}
+        <img style="width: 100%;" src="img/projects/{{project.stub}}/{{image}}">
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  {# <section id="results">
     <div class="container">
       <h1>The Results</h1>
       <h2>A dynamic, versatile brand and web strategy.</h2>
@@ -70,7 +75,7 @@
         I co-founded LDRLY, a game services startup focused on creating a player intelligence platform that helps game developers improve retention, engagement, and monetization. As Chief Creative Officer, I led design and later operations for the company, managing a team of designers and software engineers and coordinating product strategy. I've also worked at East Side Games leading product and design for their analytics and core tech teams.
       </p>
     </div>
-  </section>
+  </section> #}
 
   <section id="more-projects">
     <div class="container">
