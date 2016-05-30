@@ -9,6 +9,7 @@ var watch = require('gulp-watch');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var maps = require('gulp-sourcemaps');
+var ghPages = require('gulp-gh-pages');
 var del = require('del');
 
 var jsonData = require('./app/data/data.json');
@@ -112,6 +113,11 @@ gulp.task('build', ['nunjucks', 'projects', 'sass', 'scripts'], function() {
     paths.images
   ], { base: './app' })
     .pipe(gulp.dest('dist'))
+});
+
+gulp.task('deploy', function() {
+  return gulp.src('dist/**/*')
+    .pipe(ghPages());
 });
 
 // Rerun the task when a file changes

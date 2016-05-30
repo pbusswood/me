@@ -4,3 +4,4 @@ Include your project-specific ignores in this file
 .sass-cache/
 *.css.map
 dist/
+.publish/
