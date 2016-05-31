@@ -38,6 +38,14 @@
   .dark {
     padding-bottom: 4em;
   }
+
+  img {
+    margin-bottom: 3em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 #more-projects {
