@@ -713,7 +713,7 @@ nav {
     text-align: center; }
     nav ul a {
       text-decoration: none; }
-      nav ul a:first-of-type {
+      nav ul a:first-of-type li {
         display: none; }
     nav ul li {
       color: rgba(255, 255, 255, 0.8);
@@ -735,10 +735,12 @@ nav {
   nav ul {
     text-align: left;
     padding: 0 18px; }
-    nav ul a:first-of-type {
-      display: initial; }
     nav ul li {
       margin-left: 0.2em; } }
+
+@media screen and (min-width: 600px) {
+  nav ul a:first-of-type li {
+    display: initial; } }
 
 @media screen and (min-width: 800px) {
   nav {
@@ -856,6 +858,10 @@ footer {
   line-height: 1; }
   .social-icons a:last-child .social-icon {
     margin-right: 0; }
+  nav .social-icons {
+    float: right;
+    margin-left: 0;
+    display: none; }
 
 .social-icon {
   width: 32px;
@@ -863,12 +869,28 @@ footer {
   margin-right: 16px;
   display: inline-block;
   background-size: cover; }
+  nav .social-icon {
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+    transition: .4s; }
+    nav .social-icon:hover {
+      opacity: 1; }
   .social-icon.facebook {
     background-image: url("../img/icon-facebook.png"); }
   .social-icon.twitter {
     background-image: url("../img/icon-twitter.png"); }
   .social-icon.linkedin {
     background-image: url("../img/icon-linkedin.png"); }
+
+/* Media Queries */
+@media screen and (min-width: 480px) {
+  nav .social-icons {
+    display: block; } }
+
+@media screen and (min-width: 600px) {
+  nav .social-icons {
+    margin-left: 1.5rem; } }
 
 .grid-sizer,
 .insta-photo {
