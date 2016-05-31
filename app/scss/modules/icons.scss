@@ -10,6 +10,12 @@
       margin-right: 0;
     }
   }
+
+  nav & {
+    float: right;
+    margin-left: 0;
+    display: none;
+  }
 }
 
 .social-icon {
@@ -18,6 +24,17 @@
   margin-right: 16px;
   display: inline-block;
   background-size: cover;
+
+  nav & {
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+    transition: .4s;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 
   &.facebook {
     background-image: url('../img/icon-facebook.png');
@@ -30,4 +47,23 @@
   &.linkedin {
     background-image: url('../img/icon-linkedin.png');
   }
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: $breakpoint-mobile) {
+
+  nav .social-icons {
+    display: block;
+  }
+
+}
+
+@media screen and (min-width: $breakpoint-mobile-lg) {
+
+  nav .social-icons {
+    margin-left: 1.5rem;
+  }
+
 }

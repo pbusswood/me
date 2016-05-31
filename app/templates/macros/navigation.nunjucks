@@ -12,6 +12,7 @@
       <a href="index.html#about"><li class="{%if activePage == 'about' %} active {% endif %}">About</li></a>
       <li>Blog</li>
       <li>Contact</li>
+      {% include "partials/social.nunjucks" %}
     </ul>
   </div>
 </nav>
