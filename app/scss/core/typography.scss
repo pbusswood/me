@@ -20,6 +20,10 @@ h1 {
   color: $darker-grey;
   font-size: 2.25em;
   padding: 1em 0 0;
+
+  .hero & {
+    font-weight: 300;
+  }
 }
 
 h2 {
