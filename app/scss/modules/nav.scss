@@ -37,7 +37,7 @@ nav {
       text-decoration: none;
 
       &:first-of-type li {
-        display: none;
+        // display: none;
       }
     }
 
@@ -85,7 +85,7 @@ nav {
 
   nav ul a {
     &:first-of-type li {
-      display: initial;
+      // display: initial;
     }
   }
 
@@ -112,7 +112,7 @@ nav {
       float: right;
       padding: 0;
       margin-top: 8px;
-      margin-right: -0.5em;
+      margin-right: 0;
       margin-bottom: 0;
 
       li {

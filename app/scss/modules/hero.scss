@@ -8,6 +8,10 @@
   background-position: center center;
   background-size: cover;
 
+  #home & {
+    padding: 120px 0 110px;
+  }
+
   .container {
     position: relative;
     max-width: none;
@@ -83,8 +87,9 @@
 
 @media screen and (min-width: $breakpoint-mobile) {
 
-  .hero {
-    padding-bottom: 150px;
+  .hero,
+  #home .hero {
+    padding: 150px 0;
 
     .controls {
       display: block;
@@ -95,7 +100,8 @@
 
 @media screen and (min-width: $breakpoint-tablet) {
 
-  .hero {
+  .hero,
+  #home .hero {
     margin-top: 0;
     padding-top: 230px;
 

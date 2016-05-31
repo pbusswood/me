@@ -14,6 +14,7 @@
     <div class="container">
       <h1>Hey, I'm Parker.</h1>
       <h2>I design and build fantastic user experiences.</h2>
+      {% include "partials/social.nunjucks" %}
     </div>
   </div>
 </header>

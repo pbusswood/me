@@ -1,0 +1,15 @@
+<!-- contact.nunjucks -->
+
+<section id="contact">
+  <div class="container">
+    <h1>Contact</h1>
+    <h2>Here's how you can get in touch.</h2>
+    <div class="contact-info">
+      <ul>
+        <li class="email"></li>
+        <li class="email"></li>
+        <li class=""></li>
+      </ul>
+    </div>
+  </div>
+</section>

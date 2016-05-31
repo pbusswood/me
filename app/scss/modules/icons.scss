@@ -16,6 +16,10 @@
     margin-left: 0;
     display: none;
   }
+
+  .hero & {
+    margin-top: 2rem;
+  }
 }
 
 .social-icon {
@@ -56,6 +60,10 @@
 
   nav .social-icons {
     display: block;
+  }
+
+  .hero .social-icons {
+    display: none;
   }
 
 }

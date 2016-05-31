@@ -8,10 +8,10 @@
     </a>
     <ul>
       <a href="index.html"><li class="{%if activePage == 'home' %} active {% endif %}">Home</li></a>
-      <a href="index.html#work"><li class="{%if activePage == 'work' %} active {% endif %}">Work</li></a>
+      <a href="index.html#work"><li class="{%if activePage == 'work' %} active {% endif %}">Projects</li></a>
       <a href="index.html#about"><li class="{%if activePage == 'about' %} active {% endif %}">About</li></a>
-      <li>Blog</li>
-      <li>Contact</li>
+      {#<li>Blog</li>#}
+      {#<a href="index.html#contact"><li class="{%if activePage == 'contact' %} active {% endif %}">Contact</li></a>#}
       {% include "partials/social.nunjucks" %}
     </ul>
   </div>
