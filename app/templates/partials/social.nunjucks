@@ -1,0 +1,7 @@
+<!-- social.nunjucks -->
+
+<div class="social-icons">
+  <a href="http://www.facebook.com/parker.busswood" target="_blank"><div class="social-icon facebook"></div></a>
+  <a href="http://www.twitter.com/parkerbusswood" target="_blank"><div class="social-icon twitter"></div></a>
+  <a href="https://www.linkedin.com/in/parkerbusswood" target="_blank"><div class="social-icon linkedin"></div></a>
+</div>

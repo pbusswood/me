@@ -52,13 +52,18 @@
     "text": [
       "As a member of the Analytics and Core Tech teams at East Side Games, I led product design for Mentor, a powerful, responsive internal analytics platform that was crucial to the work of producers, game designers, and executives at the company.",
       "Mentor was developed in response to a growing number of one-size-fits-all business intelligence platforms in the market, none of which seemed to meet the ever-changing needs of the East Side Games team. I worked in collaboration with back-end software engineers and business analysts, as well as key stakeholders, to gather feedback and make necessary improvements to the product, crafting a new user interface and implementing dynamic charts that allowed users to interact with the data. I began with a content audit that spanned over 100 pages in the site, and re-architected the site to bring it down to 35 pages that were far more useful and readable.",
-      "After a lengthy user experience design process involving site maps, wireframes, and graphic mockups, I developed the front-end using a responsive design that created a great experience at any screen size, which allowed ESG team members to keep up to speed on the go. Over the course of my time at East Side Games, we made countless iterations on the product, adding new features and metrics and completing another full UI redesign. We drove a 300% increase in internal engagement with our analytics tool, taking it from being a tool used by a handful of employees to being a daily destination for most of the ESG team."
+      "After a lengthy user experience design process involving site maps, wireframes, and graphic mockups, I developed the front-end using a responsive design that created a great experience at any screen size, which allowed ESG team members to keep up to speed on the go. Over the course of my time at East Side Games, we made countless iterations on the product, adding new features and metrics and completing another full UI redesign. We drove a 300% increase in internal engagement with our analytics tool, taking it from being used by a handful of employees to being a daily destination for most of the ESG team."
     ]
   }, {
     "name": "Thousand Network",
     "stub": "thousand-network",
     "description": "A global community of incredible change makers",
-    "categories": []
+    "categories": [],
+    "text": [
+      "Since late 2014, I have been honoured to be a member of the Vancouver hub of Thousand Network, a global community of thought leaders and change makers under the age of 30.",
+      "We cook up molecular gastronomy, perform pop sonatas, build social empires, craft radical policy and make impact wherever we go. Scattered across 40 cities on 5 continents, we are bound by our curiosity and creativity. Our vision is to build a global community of exceptional, passionate pioneers who inspire and empower each other to create a better world.",
+      "I'm honoured to currently serve as an ambassador for the Vancouver hub, where I act as one of the main points of contact for members both in Vancouver and around the world who visit us. I'm responsible for coordinating events, managing our membership, interviewing and selecting new members, and much more. Moving forward, I hope to give back to this amazing community by using my design and coding skills to help further develop the Thousand Network website, blog, member database, and mobile applications."
+    ]
   }, {
     "name": "TEDxGastownWomen",
     "stub": "tedx",
