@@ -766,6 +766,11 @@ nav {
   nav ul li {
     margin-left: 0.5em; } }
 
+@media screen and (min-width: 1300px) {
+  nav .container {
+    margin: 0 auto;
+    max-width: 1200px; } }
+
 /* header.scss */
 /* hero.scss */
 .hero {
@@ -1239,6 +1244,11 @@ footer {
 @media screen and (min-width: 1024px) {
   #work .container {
     margin: 0 7em; } }
+
+@media screen and (min-width: 1300px) {
+  #work .container {
+    margin: 0 auto;
+    max-width: 1200px; } }
 
 /* projects.scss */
 .project-wrapper .hero {
