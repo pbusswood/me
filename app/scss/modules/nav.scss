@@ -137,3 +137,12 @@ nav {
   }
 
 }
+
+@media screen and (min-width: $breakpoint-desktop-lg) {
+
+  nav .container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+}

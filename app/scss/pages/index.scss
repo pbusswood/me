@@ -41,3 +41,12 @@
   }
 
 }
+
+@media screen and (min-width: $breakpoint-desktop-lg) {
+
+  #work .container {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+}
